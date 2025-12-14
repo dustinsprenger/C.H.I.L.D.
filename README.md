@@ -13,6 +13,8 @@ As a clarification, AI-Guardian services may be for-profit, but must be overseen
 
 To companies developing smart wearable or biomonitoring technologies for children: any system that continuously collects physiological, behavioral, or stress-related data necessarily attains the technical capacity to detect aberrant patterns consistent with severe harm, including physical and sexual abuse, and therefore failure to incorporate an independent, CSA-informed protection framework that preserves, classifies, and escalates such signals—regardless of local cultural normalization or legal permissiveness—creates foreseeable risk and a corresponding duty of care, such that suppression, reclassification, or neglect of these signals may later be construed as negligent design or willful indifference once harm is substantiated and historical data exists, rendering child-protection integration not a moral preference but a rational liability-mitigation requirement inherent to operating in this domain.
 
+Canonical source: The files in this repository represent the authoritative specification of C.H.I.L.D. Please do not modify source documents directly; forks and proposals should be made via pull requests or independent repositories.
+
 Please refer to Version 2 for the most accurate, up-to-date, and secure version of work.
 
 This work is informed by Innocence Lost: A Freudian Essay on Childhood Sexual Abuse.
