@@ -1,24 +1,59 @@
 # C.H.I.L.D.
-C.H.I.L.D. - Comprehensive Harm Interdiction &amp; Lifelong Defense: Biomonitoring for Innocence Protection
 
-C.H.I.L.D. introduces a distributed, duty-based child safety infrastructure that reframes early detection of physical and sexual abuse as a problem of local sensing, anomaly detection, and bounded escalation, rather than mass surveillance or retrospective forensics. The system integrates guardian-authorized wearables, home or local gateways, and parallel AI-assisted Guardian services into an adaptive network capable of identifying deviations from an individual child’s physiological patterns, movement routines, and expected presence, including prolonged or context-specific silence anomalies.
+## Comprehensive Harm Interdiction & Lifelong Defense
 
-Rather than transmitting continuous biometric streams to centralized institutions, C.H.I.L.D. reduces heterogeneous signals into a minimized, interpretable event vocabulary processed locally and routed in parallel to caregivers and, where subscribed, to AI-Guardian services for rapid intra-individual pattern analysis. Event retention and escalation are proportional to severity and recurrence, with repeated Yellow or Red states preserved as time-bounded summaries to maintain pattern integrity and auditability, while isolated events expire earlier.
+**Biomonitoring for Innocence Protection · Version 2 · Dustin Sprenger**
 
-Institutional endpoints remain optional and non-owning: no external agency controls underlying data streams or system configuration, and legally mandated escalation overrides discretionary routing only under defined conditions. By publishing open specifications, reference implementations, and enforceable safety constraints, C.H.I.L.D. resists institutional capture while enabling a diverse ecosystem of interoperable, privacy-preserving solutions.
+C.H.I.L.D. is a proposed child-protection research framework connecting wearable biosensors, local processing, anomaly detection and AI–human guardian teams. It asks how risk signals could reach qualified people earlier while limiting unnecessary collection and circulation of children’s data.
 
-The result is a scalable, AI-augmented guardian layer spanning homes, communities, and platforms without centralizing control over children’s lives. Absence, corruption, or suppression of signals is treated as a first-class indicator of potential harm, redefining the operational logic of child protection. C.H.I.L.D. establishes a new design paradigm for proactive, accountable, and resilient safeguarding grounded in duty of care, proportional response, and bounded memory.
+**[Visit the project website](https://dustinsprenger.github.io/C.H.I.L.D./) · [Read the full paper (PDF)](<C.H.I.L.D. - Child Defense Infrastructure v2.pdf>) · [Open the OSF project](https://osf.io/9m253/) · [Cite this work](#citation)**
 
-As a clarification, AI-Guardian services may be for-profit, but must be overseen and constrained by an independent non-profit body with established expertise in child sexual abuse prevention and response, to ensure biomonitoring accuracy, scope fidelity, and resistance to profit-driven signal distortion. Oversight authority may not be exercised by intergovernmental bodies, nation-states, or jurisdictions whose laws or practices permit or normalize child sexual abuse, including child marriage.
+## Read the paper
 
-To companies developing smart wearable or biomonitoring technologies for children: any system that continuously collects physiological, behavioral, or stress-related data necessarily attains the technical capacity to detect aberrant patterns consistent with severe harm, including physical and sexual abuse, and therefore failure to incorporate an independent, CSA-informed protection framework that preserves, classifies, and escalates such signals—regardless of local cultural normalization or legal permissiveness—creates foreseeable risk and a corresponding duty of care, such that suppression, reclassification, or neglect of these signals may later be construed as negligent design or willful indifference once harm is substantiated and historical data exists, rendering child-protection integration not a moral preference but a rational liability-mitigation requirement inherent to operating in this domain.
+| Resource | What it contains |
+|---|---|
+| [Version 2 paper (PDF)](<C.H.I.L.D. - Child Defense Infrastructure v2.pdf>) | The complete 32-page research manuscript. |
+| [Version 2 manuscript (Word)](<C.H.I.L.D. - Child Defense Infrastructure v2.docx>) | The original editable manuscript. |
+| [Conceptual architecture](<C.H.I.L.D. Conceptual Architecture.png>) | The original full-resolution system diagram. |
+| [OSF publication](https://doi.org/10.17605/OSF.IO/9M253) | The linked research record and DOI. |
 
-Canonical source: This repository contains the authoritative specification of C.H.I.L.D. Source documents are stewarded and versioned here; forks, critiques, and independent implementations are welcome, but please do not modify the canonical source files directly.
+The paper files and architecture image are preserved unchanged. This repository contains the specification and diagram; it does not supply a deployed safeguarding service or tested reference implementation.
 
-Please refer to Version 2 for the most accurate, up-to-date, and secure version of work.
+## Research overview
 
-This work is informed by Innocence Lost: A Freudian Essay on Childhood Sexual Abuse.
+C.H.I.L.D. proposes a distributed child-protection infrastructure combining wearable biosensors, local anomaly detection, minimized event signals and AI–human guardian teams. The framework describes how changes in an individual child’s physiological patterns, movement, proximity and expected presence could inform contextual risk review. It organizes responses through graduated risk states, bounded retention, consent-aware routing and qualified human oversight. Its intended contribution is a technical and governance framework for child abuse prevention, safeguarding intervention and privacy-preserving monitoring. Detection performance, false-positive control and safeguarding outcomes require independent evaluation.
 
-Conceptual origin by Dustin Sprenger, original elaboration and formulation by Perplexity AI, adjusted logic and abstract by GPT5.1.
+The intended audience includes safeguarding and child-welfare researchers, clinicians, wearable-device engineers, biosignal-processing researchers, privacy specialists and people with lived experience contributing through supported research settings.
 
-Conceptual Architecture created using Eraser (Eraser.io) with prompts from OpenAI GPT5.1.
+## How the proposed architecture works
+
+1. **Sense and interpret locally.** Wearable and local devices establish individual baselines and detect deviations in physiological, movement or contextual signals.
+2. **Minimize and route events.** Raw signals are reduced to an interpretable event vocabulary, with consent, encryption and routing constraints.
+3. **Review context with people.** AI-assisted Guardian services support human review; physiological anomalies alone do not establish that abuse has occurred.
+4. **Escalate proportionately.** Green, Yellow, Red and silence-related states guide response, acknowledgment, retention and follow-up within the proposed framework.
+
+The design emphasizes local processing, data minimization, human oversight, proportional retention and equity of access. The paper discusses independent, survivor-informed governance and boundaries on institutional or commercial control. Its AI-Guardian service model includes a proposed independent nonprofit oversight layer.
+
+## Architecture
+
+[![C.H.I.L.D. conceptual architecture showing local sensing, risk states, event routing and human review](<C.H.I.L.D. Conceptual Architecture.png>)](<C.H.I.L.D. Conceptual Architecture.png>)
+
+[Open the original diagram at full resolution](<C.H.I.L.D. Conceptual Architecture.png>). It is a wide system map; the website also provides a readable overview of the main stages.
+
+## Independent evaluation
+
+The proposed sensing, risk classification, escalation and governance mechanisms require independent evaluation. Research priorities include detection validity, false positives and missed events, consent and coercion, access controls, supported human review and effects on children and families. The specification should not be treated as a validated diagnostic tool or an operational emergency service.
+
+Technical critiques and independent research proposals are welcome. Please keep the canonical paper intact; propose clarifications through a separate change or an independent analysis. Do not include identifiable information about children in public repository contributions.
+
+## Citation
+
+> Sprenger, D. (2025). C.H.I.L.D. — Comprehensive Harm Interdiction & Lifelong Defense: Biomonitoring for Innocence Protection (Version 2) [Research framework]. https://doi.org/10.17605/OSF.IO/9M253
+
+Use GitHub’s **Cite this repository** button, [download BibTeX](citation.bib), or use [CITATION.cff](CITATION.cff). The 2025 year refers to the v2 manuscript recorded in this repository on [14 December 2025](https://github.com/dustinsprenger/C.H.I.L.D./commit/db9be5b906592cea76f2790210629f31dd0c4fca). The PDF was added on [5 April 2026](https://github.com/dustinsprenger/C.H.I.L.D./commit/b10512b863f84e0477806dee05cf81e860adaa7b); the OSF DOI identifies the linked research record.
+
+## Authorship and acknowledgments
+
+Conceptual origin by **Dustin Sprenger**. Original elaboration and formulation used Perplexity AI; adjusted logic and the earlier abstract used GPT-5.1. The conceptual architecture was created with Eraser using prompts from GPT-5.1. This work is informed by *Innocence Lost: A Freudian Essay on Childhood Sexual Abuse*. The project website and this README were prepared with OpenAI assistance from the existing materials.
+
+The version 2 paper remains the authoritative specification. Consult the paper and linked OSF record for the author’s reuse terms; this website update does not introduce a new license.
