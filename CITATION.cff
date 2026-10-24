@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you refer to C.H.I.L.D., please cite the version 2 research paper using the preferred citation below."
+title: "C.H.I.L.D. — Comprehensive Harm Interdiction & Lifelong Defense: Biomonitoring for Innocence Protection"
+version: "2"
+authors:
+  - family-names: "Sprenger"
+    given-names: "Dustin"
+url: "https://dustinsprenger.github.io/C.H.I.L.D./"
+repository-code: "https://github.com/dustinsprenger/C.H.I.L.D."
+doi: "10.17605/OSF.IO/9M253"
+abstract: "C.H.I.L.D. proposes a distributed child-protection infrastructure combining wearable biosensors, local anomaly detection, minimized event signals and AI–human guardian teams. The framework describes how changes in an individual child’s physiological patterns, movement, proximity and expected presence could inform contextual risk review. It organizes responses through graduated risk states, bounded retention, consent-aware routing and qualified human oversight. Its intended contribution is a technical and governance framework for child abuse prevention, safeguarding intervention and privacy-preserving monitoring. Detection performance, false-positive control and safeguarding outcomes require independent evaluation."
+keywords:
+  - child protection
+  - child abuse prevention
+  - wearable biosensors
+  - biomonitoring
+  - privacy-preserving monitoring
+  - anomaly detection
+  - human oversight
+preferred-citation:
+  type: report
+  title: "C.H.I.L.D. — Comprehensive Harm Interdiction & Lifelong Defense: Biomonitoring for Innocence Protection"
+  authors:
+    - family-names: "Sprenger"
+      given-names: "Dustin"
+  year: 2025
+  version: "2"
+  doi: "10.17605/OSF.IO/9M253"
+  url: "https://dustinsprenger.github.io/C.H.I.L.D./"
