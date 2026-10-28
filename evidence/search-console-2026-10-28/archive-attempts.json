@@ -1,0 +1,30 @@
+{
+  "forum_url": "https://support.google.com/webmasters/thread/475055375?hl=en",
+  "anonymous_check": {
+    "started_utc": "2026-10-28T21:08:21.909907+00:00",
+    "completed_utc": "2026-10-28T21:08:24.996451+00:00",
+    "cookies_sent": false,
+    "authenticated": false,
+    "status": 410,
+    "title": "Sorry, this page can't be found. - Google Search Central Community",
+    "contains_post_title": false,
+    "contains_unavailable_message": true
+  },
+  "direct_archives": [
+    {
+      "service": "Wayback",
+      "url": "https://web.archive.org/web/20261028210639/https://support.google.com/webmasters/thread/475055375?hl=en",
+      "captured_at_utc": "2026-10-28T21:06:39Z",
+      "report_content_preserved": false,
+      "observed": "Google unavailable page"
+    },
+    {
+      "service": "Ghostarchive",
+      "url": "https://ghostarchive.org/archive/A9Qjv",
+      "captured_at_utc": "2026-10-28T21:06:15Z",
+      "report_content_preserved": false,
+      "observed": "Google unavailable page"
+    }
+  ],
+  "cause": "Not established"
+}
