@@ -1,0 +1,31 @@
+C.H.I.L.D. Search Central forum report — preservation record
+Verified 28 October 2026 (UTC)
+
+Original Google post:
+https://support.google.com/webmasters/thread/475055375?hl=en
+
+Public reproduction of the report and original screenshots:
+https://github.com/dustinsprenger/C.H.I.L.D./tree/search-console-evidence-2026-10-28/evidence/search-console-2026-10-28
+
+FULL REPORT COPY — verified independent captures:
+Wayback:
+https://web.archive.org/web/20261028211432/https://github.com/dustinsprenger/C.H.I.L.D./tree/search-console-evidence-2026-10-28/evidence/search-console-2026-10-28
+Ghostarchive:
+https://ghostarchive.org/archive/7QVP3
+
+These preserve the public GitHub reproduction. The complete report text was visible in both replays. All six embedded evidence images were verified as loaded in the Wayback replay. Ghostarchive's report text was verified; individual image payloads were not independently hash-checked there.
+
+DIRECT GOOGLE-PAGE CAPTURES — unavailable response, NOT report content:
+Wayback:
+https://web.archive.org/web/20261028210639/https://support.google.com/webmasters/thread/475055375?hl=en
+Ghostarchive:
+https://ghostarchive.org/archive/A9Qjv
+
+Both direct captures displayed Google's unavailable-page response. A separate request without cookies returned HTTP 410 at 21:08:24 UTC while the signed-in browser displayed the full report. The cause remains unresolved. These observations do not establish censorship or intent.
+
+GitHub publication review:
+https://github.com/dustinsprenger/C.H.I.L.D./pull/6
+The evidence is public on its branch. Main-branch merging requires one approving review. That requirement has not been bypassed.
+
+Preservation:
+All 275 pre-existing local C.H.I.L.D. evidence/research files matched the before-action SHA-256 baseline. The initial ten GitHub files at commit bd694390094c8fb5a36c357592aa5e7d2e1768ca matched the local publication bundle byte for byte. Original research, website, and prior evidence files were not edited.

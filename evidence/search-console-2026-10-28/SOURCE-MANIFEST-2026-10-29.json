@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-29",
+  "scope": "CHILD Search Console community correspondence and related GitHub records",
+  "originals_unchanged": true,
+  "screenshots_visually_reviewed": 5,
+  "original_eml_files_published": false,
+  "source_records": [
+    {
+      "source_type": "original screenshot",
+      "filename": "child-google-forum-reply-to-barry.png",
+      "sha256": "a4430820ca936595456953060201efd5e2a77f4ffed80367be09fe3239cbe8bb",
+      "public_file": "child-google-forum-reply-to-barry.png",
+      "transformation": "None; byte-for-byte copy"
+    },
+    {
+      "source_type": "original screenshot",
+      "filename": "child-google-forum-reply-to-raul.png",
+      "sha256": "42e64803313098452b238f7756f472d3e8c7c1dce547b8323a0a579041d39f75",
+      "public_file": "child-google-forum-reply-to-raul.png",
+      "transformation": "None; byte-for-byte copy"
+    },
+    {
+      "source_type": "original screenshot",
+      "filename": "child-google-forum-barry-conflict-question.png",
+      "sha256": "67303099bac04b039a175904c76d2953747b40d5e4c004da0df1f4d86c52437e",
+      "public_file": "child-google-forum-barry-conflict-question.png",
+      "transformation": "None; byte-for-byte copy"
+    },
+    {
+      "source_type": "original screenshot",
+      "filename": "github-sitemap-replies-2026-10-29.png",
+      "sha256": "1fe6d78feaea2f7f98cd6352250171bc693463662f7ca8d57a6f114e951fd25a",
+      "public_file": "github-sitemap-replies-2026-10-29.png",
+      "transformation": "None; byte-for-byte copy"
+    },
+    {
+      "source_type": "original screenshot",
+      "filename": "github-community-ruby-failure-40960224818.png",
+      "sha256": "891b182fbef374b43878abbca1b1b102ffe731cbacd234e105feb6243490346b",
+      "public_file": "github-community-ruby-failure-40960224818.png",
+      "transformation": "None; byte-for-byte copy"
+    },
+    {
+      "source_type": "original EML",
+      "filename": "Google Search Central Community - 'Google can fetch CHILD’s sitemap. Search Console says “Couldn’t ...ere are the diagnostics_' - Help Communities (help-communities@google.com) - 2026-10-28 1601.eml",
+      "sha256": "1a0dff324646cc188650cbc3d2762412799058dc018eafa668b908385bd6490e",
+      "public_file": "CORRESPONDENCE-2026-10-29.txt",
+      "transformation": "Plain-text body with Subject, Date and public service From retained; transport/recipient headers, account-specific URL tokens, tracking and notification-action footer omitted. Original file unchanged locally."
+    },
+    {
+      "source_type": "original EML",
+      "filename": "Google Search Central Community - 'Google can fetch CHILD’s sitemap. Search Console says “Couldn’t ...ere are the diagnostics_' - Help Communities (help-communities@google.com) - 2026-10-29 0833.eml",
+      "sha256": "ff5e33822e08f1f54dc0ef33c355b21c4ff26970508425a9e04cd247c73854e0",
+      "public_file": "CORRESPONDENCE-2026-10-29.txt",
+      "transformation": "Plain-text body with Subject, Date and public service From retained; transport/recipient headers, account-specific URL tokens, tracking and notification-action footer omitted. Original file unchanged locally."
+    },
+    {
+      "source_type": "original EML",
+      "filename": "[community_community] Run failed_ Remove the inactive label - main (9b4ed8f) - 'Dustin Sprenger' (notifications@github.com) - 2026-10-29 0205.eml",
+      "sha256": "816cfec657df38f577f9e907419bb65ce07998325acbe77b663bbf3898455f77",
+      "public_file": "CORRESPONDENCE-2026-10-29.txt",
+      "transformation": "Plain-text body with Subject, Date and public service From retained; transport/recipient headers, account-specific URL tokens, tracking and notification-action footer omitted. Original file unchanged locally."
+    },
+    {
+      "source_type": "original EML",
+      "filename": "[community_community] Run failed_ Remove the inactive label - main (9b4ed8f) - 'Dustin Sprenger' (notifications@github.com) - 2026-10-29 1645.eml",
+      "sha256": "2098578e60cceae06650544f540bad21fa2b012329dbf1557599ec5b5a9afc6d",
+      "public_file": "CORRESPONDENCE-2026-10-29.txt",
+      "transformation": "Plain-text body with Subject, Date and public service From retained; transport/recipient headers, account-specific URL tokens, tracking and notification-action footer omitted. Original file unchanged locally."
+    }
+  ]
+}
