@@ -4,6 +4,25 @@ Dustin Sprenger x ABEL · Evidence recorded 28 October 2026
 
 [Original Google forum post](https://support.google.com/webmasters/thread/475055375?hl=en) · [C.H.I.L.D. project](https://dustinsprenger.github.io/C.H.I.L.D./) · [Research record on OSF](https://osf.io/9m253/)
 
+
+## Correspondence update — 29 October 2026
+
+The follow-up correspondence is now preserved with the report. A participant stated that case-specific evidence could not be supplied and declined escalation; the technical status of CHILD’s sitemap remains unresolved in this record.
+
+Read the [full correspondence, exact posted replies, notification extracts and professional sources](CORRESPONDENCE-2026-10-29.txt). The [source manifest](SOURCE-MANIFEST-2026-10-29.json) identifies the original screenshots and email hashes. Questions about the responder’s role are preserved as questions; the review did not establish undisclosed payments or misconduct.
+
+Screenshots:
+
+- [Reply to Raúl: qualification of the status explanation](child-google-forum-reply-to-raul.png)
+- [Request to Barry for diagnostics and escalation](child-google-forum-reply-to-barry.png)
+- [Final question about role, relevant relationships and escalation policy](child-google-forum-barry-conflict-question.png)
+- [GitHub requests for reproducible sitemap comparisons](github-sitemap-replies-2026-10-29.png)
+- [Separate GitHub community label-workflow failure](github-community-ruby-failure-40960224818.png)
+
+The GitHub workflow image concerns discussion-label maintenance in community/community. It is not a CHILD build failure or evidence of search suppression. Screenshots are unchanged copies; some show only part of a post, so use the complete text record for the wording. The four email notifications are provided as public text extracts, with account-specific tracking/unsubscribe links and private routing headers omitted. Original EML files remain unchanged locally. The prior evidence remains intact.
+
+---
+
 ## Preservation note
 
 Google displayed a successful-posting confirmation, and the complete report remained visible after a signed-in reload. Subsequent independent archive requests received Google’s unavailable-page response instead of the report. A separate request without cookies at 2026-10-28 21:08:24 UTC returned HTTP 410, “Sorry, this page can't be found.” This establishes an access discrepancy in these checks. It does not establish why it occurred: review, automated filtering, delayed public availability, access differences or another cause remain unresolved. No moderation reason was supplied in the inspected signed-in view.

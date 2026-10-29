@@ -1,0 +1,397 @@
+CHILD SEARCH CONSOLE: CORRESPONDENCE AND SOURCE RECORD, 29 OCTOBER 2026
+Dustin Sprenger x ABEL
+
+Google community thread: https://support.google.com/webmasters/thread/475055375
+GitHub comparison discussion: https://github.com/orgs/community/discussions/199426
+
+The record below distinguishes published wording, notification extracts, professional background and unresolved technical questions. It is an author-compiled record, not an independent audit or a disclosure of Google's internal processing logs. Posting-time screenshots show visible portions of the replies; the full posted texts are transcribed below.
+
+PUBLIC DISCUSSION
+
+1. Raúl Revuelta — reply received (message 475231626)
+Source: original Google notification, 29 October 2026 06:33:46 -0700.
+
+Hi,
+
+The "Couldn't fetch" message (or the longer version, "Sitemap could not be read") means that Google hasn't accessed the sitemap yet. If, at some point, Google decides to process the sitemap and there is an error, it will provide a specific error message.
+
+You can find more information here:
+https://support.google.com/webmasters/thread/184533703/are-you-seeing-couldn-t-fetch-reported-for-your-sitemap?hl=en
+
+Keep in mind that a sitemap is just an additional way for Google to discover new URLs, and it doesn't directly affect crawling or indexing.
+
+2. Dustin Sprenger x ABEL — posted reply to Raúl (message 475339248)
+Screenshot: child-google-forum-reply-to-raul.png
+
+Raúl, your explanation needs qualification.
+
+Google’s own Sitemaps report documentation lists several possible causes of “Couldn’t fetch,” including robots.txt blocking, incorrect URLs, server problems and low crawl demand. It does not define the status exclusively as “Google has not accessed the sitemap yet.”
+https://support.google.com/webmasters/answer/7451001?hl=en
+
+The pinned community post you linked explains that an unprocessed sitemap can display this status. That supports delayed processing as a possibility; it does not establish that this is what happened to CHILD’s sitemap. Likewise, a more specific error appearing later should not be presented as a certainty.
+
+Our original report already distinguishes live inspection from sitemap processing and indexing. The October 28 live test retrieved the exact sitemap with HTTP 200 and application/xml. We understand that this does not prove the separate sitemap-processing system completed its work.
+
+Please address the unresolved diagnostic questions:
+
+1. Which observable field distinguishes a sitemap awaiting processing from an attempted fetch that failed?
+2. What case-specific evidence establishes that CHILD’s sitemap has not yet been accessed, rather than this being a possible explanation?
+3. How should we interpret the blank last-read field in the list versus October 24 in the detail panel, alongside Unknown type and zero discovered pages?
+4. If the public interface cannot distinguish these states, can you escalate the documented case for an explanation of the actual processing status?
+
+On crawling, Google says sitemaps can improve discovery and crawling efficiency, while providing no guarantee of crawling or indexing. That distinction matters:
+https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview
+
+We are asking for an identifiable status and actionable diagnostics. A possible explanation should not be presented as an established finding for this sitemap.
+
+Dustin Sprenger x ABEL
+
+3. barryhunter — first reply (message 475339499)
+Source: notification text supplied in the correspondence; spelling preserved.
+
+There is no actionable diagnostic. The sitemap hasn't actually 'failed' yet.
+
+The offical documentaiton is lacking in this regard. We can't provide evidence of this, only our experience
+
+4. Dustin Sprenger x ABEL — posted request for diagnostics and escalation
+Screenshot: child-google-forum-reply-to-barry.png
+
+Barry, your acknowledgment that you cannot provide evidence leaves the central question unanswered. Experience may suggest delayed processing; it does not establish the actual state of CHILD’s sitemap. Please do not present an unverified explanation as a settled finding.
+
+Please escalate this case to a Google team that can inspect the sitemap-processing records and answer:
+
+1. Has this sitemap been attempted, retrieved, parsed, deferred, or rejected? Give the relevant timestamp and recorded outcome where available.
+2. What explains the reported Unknown type, zero discovered pages, and differing last-read fields?
+3. Can site owners obtain any diagnostic that distinguishes an unprocessed sitemap from an unsuccessful fetch? If they cannot, say so explicitly.
+4. Can this case be escalated? If yes, please confirm that it has been forwarded and provide any shareable reference. If not, identify the available support route—or state plainly that no such route is available through this forum.
+
+The successful live inspection does not prove that sitemap processing succeeded. Equally, the absence of a specific error does not establish that processing is merely pending. We need the actual status, or a clear statement that it cannot be determined from the information available here.
+
+An error label that does not identify the condition, followed by an explanation that cannot be verified, leaves the publisher with no way to decide what needs fixing. That is a reporting and support limitation worth escalating in its own right.
+
+Please keep this question unresolved until the diagnostic issue is answered.
+
+Dustin Sprenger x ABEL
+
+5. barryhunter — subsequent reply (message 475340779)
+Source: notification text supplied in the correspondence; spelling preserved.
+
+We can't escalate this, because this explainable behaviour. THere is no identified issue to escalate.
+
+All your fancy words are chasing something we can't provide.
+
+6. Dustin Sprenger x ABEL — final role and conflict-of-interest question
+Screenshot: child-google-forum-barry-conflict-question.png
+
+Barry, one final clarification about your role and any relevant conflict of interest.
+
+Google’s published Product Experts terms provide for perks and possible confidentiality obligations, while stating that participation does not make an expert a Google employee or entitle them to compensation:
+https://support.google.com/communities/answer/9717995?hl=en
+
+Please clarify:
+
+1. Are you responding solely as a volunteer Product Expert, or do you have any paid employment, consultancy, or other commercial relationship with Google or Alphabet relevant to this discussion? Are there any program benefits you consider relevant to a potential conflict of interest here?
+2. Does any program or confidentiality obligation limit what you can disclose about diagnostics or escalation? We are asking whether a restriction exists, not for confidential material.
+3. Is the decision not to escalate your own assessment, a published escalation rule, or a direction from a Google team? Please identify the public basis where available.
+
+Program membership alone does not establish a conflict. Readers should nevertheless be able to distinguish independent community judgment from a decision made or constrained by Google. Please answer those specific questions directly.
+
+Dustin Sprenger x ABEL
+
+WHAT THIS RECORD ESTABLISHES
+The community explanations rely on experience; no case-specific sitemap-processing logs are supplied in these messages. The exact processing state remains unresolved in this record. The role/disclosure questions are questions, not findings of a conflict. Neither response speed nor use of AI in a different published guide establishes automation of these replies. No undisclosed payment or misconduct was verified in the professional-source review.
+
+PUBLIC PROFESSIONAL BACKGROUND AND SOURCES
+Google profile: https://support.google.com/profile/6207
+The profile identifies barryhunter, lists membership since 31 July 2008, describes a developer/webmaster background, and links nearby.org.uk. His discussion replies display Diamond Product Expert status.
+
+Personal site: https://www.nearby.org.uk/
+The site credits Barry Hunter and describes mapping, Google Earth/Maps and coordinate-conversion tools, alongside volunteer involvement with Geograph. Its older copyright dates are not evidence of a current employment relationship.
+
+Geograph credits: https://www.geograph.org.gg/help/credits
+The credits date his involvement in mapping/search development to April 2005 and the Channel Islands project to April 2010. Use of Google's mapping technology is a documented technical connection, not proof of Google employment or an undisclosed payment.
+
+Google Product Experts terms: https://support.google.com/communities/answer/9717995?hl=en
+The terms describe voluntary participation, discretionary perks and possible confidentiality agreements, while distinguishing participants from employees or representatives and denying an entitlement to compensation for participation. These general terms do not establish which benefits or obligations apply to Barry personally, or whether any separate paid relationship exists.
+
+Community guide: https://support.google.com/webmasters/community-guide/318420765
+The guide displayed in his public profile discloses an AI-assisted draft based on his own human-written original and checked for errors. This is evidence of disclosed AI assistance in that guide, not proof that his replies in our thread were automated.
+
+Geograph January 2026 newsletter, PDF page 3:
+https://media.geograph.org.uk/files/b3e3e393c77e35a4a3f3cbd1e429b5dc/Newsletter_35_January_2026.pdf
+The “Website Performance — Barry Hunter” contribution criticizes the server load caused by AI crawler traffic. This is relevant counterevidence to an assumption that all his public statements favor large technology companies.
+
+No verified undisclosed payment or misconduct was established in this review. No case-specific Google processing records were supplied. The professional sources above were read online; this note is not a substitute for an independently archived copy of each page.
+
+
+RELATED GITHUB RECORDS
+Two requests for reproducible comparisons were posted:
+https://github.com/orgs/community/discussions/199426#discussioncomment-19279168
+https://github.com/orgs/community/discussions/199426#discussioncomment-19279184
+Screenshot: github-sitemap-replies-2026-10-29.png
+
+The separate label-maintenance workflow failed:
+https://github.com/community/community/actions/runs/40960224818
+Screenshot: github-community-ruby-failure-40960224818.png
+The screenshot identifies Ruby 3.3.5 as unavailable for ubuntu-26.04. This is community/community discussion-label automation, not a CHILD website-build failure and not evidence that the comments failed to publish. The GitHub comparison discussion and Google Search Console processing issue must not be conflated with this workflow.
+
+PUBLIC COPIES OF ORIGINAL EMAIL NOTIFICATIONS
+These are plain-text derivatives, not original EML files. The original EML bytes and full transport headers remain unchanged locally. Recipient headers and message-routing identifiers are not reproduced; account-specific URL tokens, tracking pixels, unsubscribe actions and notification-management footers are omitted. Public thread and workflow links are retained. Original SHA-256 values and the transformation applied are listed in SOURCE-MANIFEST-2026-10-29.json.
+
+
+================================================================
+Subject: Google Search Central Community - "Google can fetch CHILD’s sitemap. Search Console says “Couldn’t fetch”. Where are the diagnostics?"
+Date: Wed, 28 Oct 2026 14:01:01 -0700
+From: Help Communities <help-communities@google.com>
+Source SHA-256: 1a0dff324646cc188650cbc3d2762412799058dc018eafa668b908385bd6490e
+
+Google Search Central Community
+
+Hi Super Intends,
+Your question has been posted to the Google Search Central Community.
+
+Most questions receive a reply within 24 hours. We'll send you an email  
+notification when this happens.
+
+
+Google's tools can retrieve the files. Search Console still presents a dead  
+end. We are asking for an engineering explanation, not another generic  
+instruction to “check your sitemap.”
+
+
+
+We investigated this on 28 October 2026 for CHILD, a publicly accessible  
+child-protection research proposal. The PDF is unindexed and the sitemap  
+reports “Couldn't fetch,” despite successful live inspections. The  
+discrepancy has persisted across our October 24, 25 and 28 checks.
+
+
+
+Homepage: https://dustinsprenger.github.io/CHILD/
+
+Sitemap: https://dustinsprenger.github.io/CHILD/sitemap.xml
+
+PDF:  
+https://dustinsprenger.github.io/CHILD/CHILD%20-%20Child%20Defense%20Infrastructure%20v2.pdf
+
+Research record: https://osf.io/9m253/
+
+
+
+WHAT WE VERIFIED
+
+
+
+1. Google's PDF live test on October 28 at 15:37:32 America/Chicago  
+(20:37:32 UTC) returned HTTP 200, application/pdf, successful fetch,  
+crawling allowed and indexing allowed. The index report nevertheless says  
+“Page is not indexed: URL is unknown to Google,” with no recorded crawl  
+details.
+
+
+
+2. Google's sitemap live test at 15:39:14 America/Chicago (20:39:14 UTC)  
+returned HTTP 200 and application/xml. The submitted-sitemap report still  
+says “Couldn't fetch,” type Unknown, zero discovered pages. The list's  
+last-read field is blank; the detail panel displays October 24.
+
+
+
+3. The sitemap is valid XML containing the correct homepage and PDF URLs.  
+We found no redirect, path/case mismatch, malformed space encoding or  
+X-Robots-Tag exclusion. Public fetches at approximately 20:46 UTC also  
+succeeded.
+
+
+
+4. Google's own saved crawled homepage HTML already contains ordinary,  
+direct links to the exact PDF, plus citation_pdf_url. This is not a  
+missing-link or JavaScript-only discovery problem.
+
+
+
+5. The PDF is 528,601 bytes, 32 pages and unencrypted. Text extraction  
+completed without errors: 9,040 words on pages 2–32, following an image  
+cover. The downloaded PDF matches our preserved original exactly. Homepage,  
+sitemap and PDF body hashes also match our October 24 captures.
+
+
+
+6. The host's robots.txt returns 404, not a disallow rule. The checked  
+reports show no manual actions or security issues and no removal requests  
+in the displayed six-month records.
+
+
+
+7. A separate “Crawled - currently not indexed” report lists the homepage,  
+although current URL Inspection says that homepage is indexed. That  
+exclusion is not a PDF rejection record. The reports are not synchronized.
+
+
+
+The PDF indexing request was accepted on October 24 at 19:15:55 UTC. We  
+understand that queue acceptance does not guarantee indexing, and four days  
+is within Google's published days-to-weeks crawl guidance. We also  
+understand that live inspection and indexing are separate processes. Those  
+distinctions explain why the statuses can coexist; they do not identify the  
+actual cause in this case.
+
+
+
+Google's own sitemap documentation lists low crawl demand among possible  
+fetch-error explanations:
+
+https://support.google.com/webmasters/answer/7451001?hl=en
+
+
+
+Its inspection documentation explains the limits of live testing:
+
+https://support.google.com/webmasters/answer/9012289?hl=en
+
+
+
+If “Couldn't fetch” can mean a transport failure, a scheduling decision or  
+incomplete processing, the interface needs to say which. A vague failure  
+label is not a useful diagnosis. Site owners should not have to  
+reverse-engineer Google's vocabulary before learning whether anything on  
+their site actually needs fixing.
+
+
+
+PLEASE ANSWER THE TECHNICAL QUESTIONS
+
+
+
+1. Which recorded sitemap attempt failed, at what time, and with what HTTP  
+response, DNS/TLS/timeout error or internal processing status? If no  
+transport failure occurred, please say so.
+
+
+
+2. Does this case represent low crawl demand, an unprocessed sitemap, stale  
+reporting or an actual fetch failure? What explains Unknown type, zero  
+discovered pages and the differing last-read fields?
+
+
+
+3. What diagnostic can distinguish an outstanding crawl request from a  
+failed or unprocessed one when the URL remains “unknown” and Google's  
+crawled homepage already contains the link?
+
+
+
+4. Can a Product Expert escalate the evidence for an engineering review and  
+identify the responsible Google team or issue reference? Host-level Crawl  
+Stats and robots reports are unavailable through this subfolder property.
+
+
+
+We are not claiming that these records prove censorship or intentional  
+suppression. We are documenting an unresolved processing/reporting  
+discrepancy and asking Google to explain it with records rather than  
+reassurance.
+
+
+
+The screenshots, response headers, timestamps and SHA-256 comparisons have  
+been preserved. Relevant responses and the absence of a technical  
+explanation will form part of the public record. A forum's moderation  
+decisions would not erase the independently retained evidence.
+
+
+
+An error message should diagnose a problem, not manufacture a dead end.
+
+
+
+Dustin Sprenger x ABEL
+
+
+View question
+
+Visit Google Search Central for more resources.
+
+
+[account-specific notification line omitted]
+
+Google Support
+© 2026 Google Inc.
+1600 Amphitheatre Parkway
+Mountain View, CA 94043
+
+
+================================================================
+Subject: Google Search Central Community - "Google can fetch CHILD’s sitemap. Search Console says “Couldn’t fetch”. Where are the diagnostics?"
+Date: Thu, 29 Oct 2026 06:33:46 -0700
+From: Help Communities <help-communities@google.com>
+Source SHA-256: ff5e33822e08f1f54dc0ef33c355b21c4ff26970508425a9e04cd247c73854e0
+
+Google Search Central Community
+
+Hi Super Intends,
+Your question received a new reply:
+
+
+
+Diamond Product Expert
+Raúl Revuelta
+
+
+Hi,
+
+
+The "Couldn't fetch" message (or the longer version, "Sitemap could not be  
+read") means that Google hasn't accessed the sitemap yet. If, at some  
+point, Google decides to process the sitemap and there is an error, it will  
+provide a specific error message.
+
+
+You can find more information here:  
+https://support.google.com/webmasters/thread/184533703/are-you-seeing-couldn-t-fetch-reported-for-your-sitemap?hl=en
+
+
+Keep in mind that a sitemap is just an additional way for Google to  
+discover new URLs, and it doesn't directly affect crawling or indexing.
+
+
+================================================================
+Subject: [community/community] Run failed: Remove the inactive label - main (9b4ed8f)
+Date: Thu, 29 Oct 2026 00:05:41 -0700
+From: Dustin Sprenger <notifications@github.com>
+Source SHA-256: 816cfec657df38f577f9e907419bb65ce07998325acbe77b663bbf3898455f77
+
+[community/community] Remove the inactive label workflow run
+
+Repository: community/community
+Workflow: Remove the inactive label
+Duration: 10.0 seconds
+Finished: 2026-10-29 07:05:21 UTC
+
+View results: https://github.com/community/community/actions/runs/40833168672
+
+Jobs:
+  * build failed (3 annotations)
+
+--
+
+
+================================================================
+Subject: [community/community] Run failed: Remove the inactive label - main (9b4ed8f)
+Date: Thu, 29 Oct 2026 14:45:02 -0700
+From: Dustin Sprenger <notifications@github.com>
+Source SHA-256: 2098578e60cceae06650544f540bad21fa2b012329dbf1557599ec5b5a9afc6d
+
+[community/community] Remove the inactive label workflow run
+
+Repository: community/community
+Workflow: Remove the inactive label
+Duration: 8.0 seconds
+Finished: 2026-10-29 21:44:40 UTC
+
+View results: https://github.com/community/community/actions/runs/40960313561
+
+Jobs:
+  * build failed (3 annotations)
+
+--
